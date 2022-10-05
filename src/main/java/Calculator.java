@@ -47,7 +47,7 @@ class Calculator {
         int num1 = 0;
         int num2 = 1;
 
-        for (int i = 1; i <= n; ++i)
+        for (int i = 1; i < n; ++i)
         {
 
             /* On each iteration, we are assigning second number
