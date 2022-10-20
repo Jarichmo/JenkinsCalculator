@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        System.out.println("welcome to the calculator \nEnter a command:");
         while(true) {
-            System.out.println("welcome to the calculator \nEnter a command:");
             String next = scanner.next();
             Calculator calculator = new Calculator();
             if (next.equals("add")) {
